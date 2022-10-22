@@ -1,6 +1,6 @@
  ssh-keygen
  
- build -t simpleweb -f Dockerfile .
+ docker build -t simpleweb -f Dockerfile .
  
  docker tag simpleweb "username"/simpleweb
  
